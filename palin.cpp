@@ -11,7 +11,7 @@ int main()
 	getline(cin, str);
 	int boo = 1;
 	vector<char>palin;
-	
+	//Fat fat
 	for (int i = 0; i < str.size(); i++)
 		if (str[i] != '-' && str[i] != '>')
 			palin.push_back(str[i]);
